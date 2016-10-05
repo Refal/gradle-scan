@@ -1,21 +1,53 @@
+# Gradle
+# ------
 .gradle
-**/build/
-!src/**/build/
+/build
 
-# Ignore Gradle GUI config
-gradle-app.setting
+# IDEA
+# ----
+.idea
+.shelf
+/*.iml
+/*.ipr
+/*.iws
+/out
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
+# Eclipse
+# -------
+*.classpath
+*.project
+*.settings
+/bin
+atlassian-ide-plugin.xml
 
-# Avoid ignore Gradle wrappper properties
-!gradle-wrapper.properties
+# NetBeans
+# --------
+.nb-*
 
-# Cache of project
-.gradletasknamecache
+# Vim
+# ---
+*.sw[op]
 
-# Eclipse Gradle plugin generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+# Emacs
+# -----
+*~
+
+# Textmate
+# --------
+.textmate
+
+# Sublime Text
+# ------------
+*.sublime-*
+
+# jEnv
+# ----
+.java-version
+
+# OS X
+# ----
+.DS_Store
+
+# HPROF
+# -----
+*.hprof
